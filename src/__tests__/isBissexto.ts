@@ -12,5 +12,6 @@ test('todo ano divisivel por 4 e não divisivel por 100 (a não ser divisivel po
   expect(isBissexto(16)).toBe(true);
   expect(isBissexto(840)).toBe(true);
   expect(isBissexto(3000)).toBe(false);
+  expect(isBissexto(2000)).toBe(true);
 });
 
