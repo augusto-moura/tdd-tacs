@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "newLine": "lf",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "lib": ["ES2018"]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/__tests__/*"
+  ]
+}
+
