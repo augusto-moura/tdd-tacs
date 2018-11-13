@@ -1,5 +1,5 @@
 
-export const numeroToRomano = (num: number): string => {
+export const numeroToRomano = (num: string): number => {
   // TODO: Implement this method
   return null!;
 };

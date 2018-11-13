@@ -6,9 +6,7 @@ const isDivisivelPor100 = isDivisivel(100);
 const isDivisivelPor4 = isDivisivel(4);
 
 export const isBissexto = (ano: number): boolean =>
-  isDivisivelPor400(ano)
-    ? true
-    : (isDivisivelPor4(ano) && !isDivisivelPor100(ano));
+  isDivisivelPor400(ano) || (isDivisivelPor4(ano) && !isDivisivelPor100(ano));
 
 
 export default isBissexto;
