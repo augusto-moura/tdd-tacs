@@ -38,7 +38,7 @@ describe('conversor de notação romana para números', () => {
 
   it('deve converter os numeros de limiar entre 1000 e 4999', () => {
     expect(numeroFromRomano('MCD')).toBe(1400);
-    expect(numeroFromRomano('DCCLI')).toBe(1751);
+    expect(numeroFromRomano('MDCCLI')).toBe(1751);
     expect(numeroFromRomano('MCMXC')).toBe(1990);
     expect(numeroFromRomano('MMMM')).toBe(4000);
     expect(numeroFromRomano('MMMMCMXCIX')).toBe(4999);
